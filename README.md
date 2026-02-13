@@ -1,11 +1,22 @@
 # cmpe310
-to see the results of this program:
+To see the results of the Hello World program:
 
-First cd in Lab1 directory if not already in it
+1. First cd in Lab1 directory if not already in it
 
-Then build the code using the terminal command:
+2. Then build the code using the terminal command:
 gcc -nostdlib -no-pie print_hello.s -o hello ./hello
 
-Note: If the program is already built, running the above terminal command will fail because the program is already built. An error message pops up saying "gcc: fatal error: input file ‘hello’ is the same as output file". Either move onto the next step like this or remove the file and then run the terminal command again to rebuild it.
+3. Finally after building the executable, run it with the terminal command ./hello to execute the program.
 
-Finally after building the executable, run it with the terminal command ./hello to execute the program.
+
+To see the results of the Task 1 program:
+
+1. cd in Lab1 directory if not already in it
+
+2. Then build the code using the terminal command:
+gcc -no-pie Task_1.s print_ram.c -o task1
+
+3. Finally after building the executable, run it with the terminal command ./task1 to execute the program.
+
+
+Note: If the either of the programs are already built, running the terminal command that builds the program will fail because the program is already built. An error message pops up saying "gcc: fatal error: input file 'name of file' is the same as output file". Either move onto the next step like this or remove the file and then run the terminal command again to rebuild it.
