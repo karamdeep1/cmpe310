@@ -53,7 +53,7 @@ To see the results of the Task 4 program:
 1. cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
-gcc -no-pie Task_4.s print_ram.c -o task4
+gcc -no-pie Task_4.s print_ram_task4.c -o task4
 
 3. Finally after building the executable, run it with the terminal command ./task4 to execute the program.
 
