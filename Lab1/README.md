@@ -5,9 +5,14 @@ To see the results of the Hello World program:
 1. First cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
+```bash
 gcc -nostdlib -no-pie print_hello.s -o hello ./hello
+```
 
-3. Finally after building the executable, run it with the terminal command ./hello to execute the program.
+3. Finally after building the executable, run it with the below terminal command to execute the program.
+```bash
+./hello
+```
 
 
 
@@ -17,9 +22,14 @@ To see the results of the Task 1 program:
 1. cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
+```bash
 gcc -no-pie Task_1.s print_ram.c -o task1
+```
 
-3. Finally after building the executable, run it with the terminal command ./task1 to execute the program.
+3. Finally after building the executable, run it with the below terminal command to execute the program.
+```bash
+./task1
+```
 
 
 
@@ -29,9 +39,14 @@ To see the results of the Task 2 program:
 1. cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
+```bash
 gcc -no-pie Task_2.s print_ram.c -o task2
+```
 
-3. Finally after building the executable, run it with the terminal command ./task2 to execute the program.
+3. Finally after building the executable, run it with the below terminal command to execute the program.
+```bash
+./task2
+```
 
 
 
@@ -41,9 +56,14 @@ To see the results of the Task 3 program:
 1. cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
+```bash
 gcc -no-pie Task_3.s print_ram.c -o task3
+```
 
-3. Finally after building the executable, run it with the terminal command ./task3 to execute the program.
+3. Finally after building the executable, run it with the below terminal command to execute the program.
+```bash
+./task3
+```
 
 
 
@@ -53,9 +73,14 @@ To see the results of the Task 4 program:
 1. cd in Lab1 directory if not already in it
 
 2. Then build the code using the terminal command:
+```bash
 gcc -no-pie Task_4.s print_ram_task4.c -o task4
+```
 
-3. Finally after building the executable, run it with the terminal command ./task4 to execute the program.
+3. Finally after building the executable, run it with the below terminal command to execute the program.
+```bash
+./task4
+```
 
 
 ## Additional Notes
