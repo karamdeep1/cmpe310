@@ -1,4 +1,4 @@
-# cmpe310
+# Lab1
 ## Hello World
 To see the results of the Hello World program:
 
