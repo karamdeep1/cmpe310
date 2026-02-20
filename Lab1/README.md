@@ -84,4 +84,4 @@ gcc -no-pie Task_4.s print_ram_task4.c -o task4
 
 
 ## Additional Notes
-If the either of the programs are already built, running the terminal command that builds the program will fail because the program is already built. An error message pops up saying "gcc: fatal error: input file 'name of file' is the same as output file". Either move onto the next step like this or remove the file and then run the terminal command again to rebuild it.
+If either of the programs are already built, running the terminal command that builds the program will fail because the program is already built. An error message pops up saying "gcc: fatal error: input file 'name of file' is the same as output file". Either move onto the next step like this or remove the file and then run the terminal command again to rebuild it.
