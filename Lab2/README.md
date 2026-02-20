@@ -14,3 +14,6 @@ gcc -nostdlib -no-pie hammingDistance.s -o hammingDistance
 ```bash
 ./hammingDistance
 ```
+
+## Additional Notes
+If the program was already built, running the terminal command that builds the program will fail because the program is already built. An error message pops up saying "gcc: fatal error: input file 'name of file' is the same as output file". Either move onto the next step like this or remove the file and then run the terminal command again to rebuild it.
